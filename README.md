@@ -105,7 +105,7 @@ for params in tqdm(grid):
         'StrategyReturn': StrategyReturn
     }
     results.append(result)
-	```
+```
 5. 儲存結果：對於每一組參數，我都會儲存參數值和對應的策略回報。所有的結果都透過results.append(result)儲存在 results list中，然後轉換為 DataFrame。
 ```
 # 將結果列表轉換為 DataFrame
